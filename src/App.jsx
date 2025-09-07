@@ -20,7 +20,7 @@ const ProtectedRoute = ({ children }) => {
 // Main App Component
 const AppContent = () => {
   return (
-    <Router>
+    <Router basename="/stmir">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route 
